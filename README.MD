@@ -25,6 +25,7 @@
     curl -sS https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     python3.11 get-pip.py
     ```
+   #### OR
 8. Install Anaconda:
    ```
    wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh
@@ -44,6 +45,7 @@
    python3.11 -m venv myenv
    source myenv/bin/activate
    ```
+   #### OR
 3. Create a virtual environment and activate it with anaconda:
     ```
    conda create -n myenv python=3.11 -y
